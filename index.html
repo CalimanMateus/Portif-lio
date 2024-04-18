@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Mateus Caliman Araujo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Adicionado "fixed-top" para tornar a navbar fixa no topo -->
+    <a class="navbar-brand" href="#">Portfólio Mateus Caliman Araujo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Início</a> <!-- Adicionado link para Início -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Header -->
+<header class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <img src="img/foto.png" class="rounded-circle img-fluid mb-3" alt="Foto de Mateus Caliman Araujo" style="max-width: 190px;">
+        <h1 class="display-4">Mateus Caliman Araujo</h1>
+        <p class="lead">Engenheiro Civil e Técnico em Segurança do Trabalho</p>
+        <div class="social-links mb-4">
+            <a href="https://www.linkedin.com/in/mateuscalimanaraujo/" class="btn btn-outline-light mr-2" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/CalimanMateus" class="btn btn-outline-light mr-2" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.instagram.com/mateuscalimanaraujo/" class="btn btn-outline-light mr-2" target="_blank"><i class="fab fa-linkedin"></i> Instagram</a>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h4 class="mt-4" id="servicos">Serviços de Engenharia:</h4>
+                <ul class="list-group text-dark">
+                    <li class="list-group-item">Criação de projetos arquitetônicos, executivos, hidrossanitários, elétricos de baixa voltagem, estruturais.</li>
+                    <li class="list-group-item">Projeto para aprovação em corpo de bombeiros.</li>
+                    <li class="list-group-item">Vistoria e laudos técnicos.</li>
+                    <li class="list-group-item">Serviços de construção e reforma de médio e alto padrão.</li>
+                    <li class="list-group-item">Regularização de imóveis.</li>
+                </ul>
+                <h4 class="mt-4" id="servicos">Serviços de Segurança do Trabalho:</h4>
+                <ul class="list-group text-dark">
+                    <li class="list-group-item">Elaboração do PPRA, PCMSO, LTCAT, AET, PPRPS, Laudo de Insalubridade.</li>
+                    <li class="list-group-item">Implementação e Treinamento da CIPA.</li>
+                    <li class="list-group-item">Realização de auditorias.</li>
+                    <li class="list-group-item">Elaboração e implementação da PROERGO.</li>
+                    <li class="list-group-item">Levantamento de aspectos e impactos ambientais – LAIA.</li>
+                    <li class="list-group-item">Treinamentos de diversas NRS.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Sobre -->
+<section id="sobre" class="py-3">
+    <div class="container">
+        <h2 class="text-center mb-4">Sobre Mim</h2>
+        <p class="lead">
+            Sou Engenheiro Civil pela Universidade Católica Salesiana de Vitória e Técnico em Segurança do Trabalho graduado pelo Colégio São Gonçalo.
+            Ao longo da minha carreira, adquiri experiência em gestão de projetos, elaboração de laudos técnicos, execução de obras e reformas.
+            Meu compromisso é sempre buscar a excelência e promover um ambiente de trabalho seguro e saudável.
+        </p>
+    </div>
+</section>
+
+<!-- Contato -->
+<section id="contato" class="py-3">
+    <div class="container">
+        <h2 class="text-center mb-4">Contato</h2>
+        <form id="form-contato">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div id="mensagem-enviada" style="display: none;" class="alert alert-success mt-3">E-mail enviado com sucesso!</div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <span>&copy; 2024 Mateus Caliman Araujo - Todos os direitos reservados</span>
+    </div>
+</footer>
+
+<!-- Ícone do WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=5527981167941" target="_blank" class="whatsapp">
+    <img src="img/whatsapp.png" alt="WhatsApp">
+</a>
+
+<script src="scripts.js"></script>
+</body>
+</html>
