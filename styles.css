@@ -12,26 +12,27 @@
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-    
 }
 .whatsapp img {
-    max-width: 50px; /* Altere o tamanho conforme necessário */
-    height: auto; /* Garante que a altura seja ajustada automaticamente */
+    max-width: 50px;
+    height: auto;
 }
+
 /* Correção de cor */
 #sobre,
 #contato {
-    background-color: #ffffff; /* Cor de fundo branco */
+    background-color: #ffffff;
     padding: 20px;
-    margin: 20px 15px; /* Adicionei margens laterais de 15px */
-    border-radius: 10px; /* Arredondando as bordas */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
-    max-width: 740px; /* Definindo a largura máxima */
-    margin-left: auto; /* Alinhando à direita */
-    margin-right: auto; /* Alinhando à esquerda */
+    margin: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /* Correção de cor das margens */
 body {
-    background-color: #343a40; /* Cor de fundo cinza escuro */
-    padding-top: 30px; /* Adicionando espaço superior para compensar a altura da navbar */
+    background-color: #343a40;
+    padding-top: 20px;
 }
