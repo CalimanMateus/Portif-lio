@@ -33,5 +33,5 @@
 /* Correção de cor das margens */
 body {
     background-color: #343a40; /* Cor de fundo cinza escuro */
-    padding-top: 20px; /* Adicionando espaço superior para compensar a altura da navbar */
+    padding-top: 30px; /* Adicionando espaço superior para compensar a altura da navbar */
 }
